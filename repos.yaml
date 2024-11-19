@@ -1,0 +1,286 @@
+rwdt-yandex:
+  Asvi Core:
+    name: Asvi Core
+    details:
+      ssh_url_to_repo: git@rwdt1.gitlab.yandexcloud.net:rwdt/services/asvi-core.git
+      branches: []
+  tinyproxy:
+    name: tinyproxy
+    details:
+      ssh_url_to_repo: git@rwdt1.gitlab.yandexcloud.net:rwdt/preprod-deploy/infra/tinyproxy.git
+      branches:
+      - main
+  iva-rest-client:
+    name: iva-rest-client
+    details:
+      ssh_url_to_repo: git@rwdt1.gitlab.yandexcloud.net:rwdt/services/iva-rest-client.git
+      branches:
+      - main
+  ci-cd:
+    name: ci-cd
+    details:
+      ssh_url_to_repo: git@rwdt1.gitlab.yandexcloud.net:drt/ci-cd.git
+      branches:
+      - main
+  asvi:
+    name: asvi
+    details:
+      ssh_url_to_repo: git@rwdt1.gitlab.yandexcloud.net:rwdt/services/asvi.git
+      branches:
+      - develop
+      - feat/departments
+      - feat/inventory-object-detail
+      - fix-remarks-3
+      - fix-remarks-4
+      - fix/main
+      - fix/rooms
+      - gai-1-demo
+      - locator-app-test-1
+      - main
+      - s3video-check-auth
+      - select-department
+      - temp-1
+  minio:
+    name: minio
+    details:
+      ssh_url_to_repo: git@rwdt1.gitlab.yandexcloud.net:rwdt/preprod-deploy/infra/minio.git
+      branches:
+      - main
+  iva-file-transporter:
+    name: iva-file-transporter
+    details:
+      ssh_url_to_repo: git@rwdt1.gitlab.yandexcloud.net:rwdt/preprod-deploy/iva-file-transporter.git
+      branches:
+      - main
+  puma-sauk-reader:
+    name: puma-sauk-reader
+    details:
+      ssh_url_to_repo: git@rwdt1.gitlab.yandexcloud.net:labeling/puma-sauk-reader.git
+      branches:
+      - main
+  puma-frontend:
+    name: puma-frontend
+    details:
+      ssh_url_to_repo: git@rwdt1.gitlab.yandexcloud.net:labeling/puma-frontend.git
+      branches:
+      - ahu
+      - ahu-t
+      - ahu2
+      - core
+      - doss
+      - main
+  location-recorder:
+    name: location-recorder
+    details:
+      ssh_url_to_repo: git@rwdt1.gitlab.yandexcloud.net:rwdt/services/location-recorder.git
+      branches:
+      - main
+  nfs:
+    name: nfs
+    details:
+      ssh_url_to_repo: git@rwdt1.gitlab.yandexcloud.net:rwdt/preprod-deploy/infra/nfs.git
+      branches:
+      - feat/pipeline
+      - main
+      - v.grits-main-patch-70541
+  Frontend Terminal:
+    name: Frontend Terminal
+    details:
+      ssh_url_to_repo: git@rwdt1.gitlab.yandexcloud.net:prmo/frontend-terminal.git
+      branches:
+      - main
+  Frontend Remote Admin:
+    name: Frontend Remote Admin
+    details:
+      ssh_url_to_repo: git@rwdt1.gitlab.yandexcloud.net:prmo/frontend-remote-admin.git
+      branches:
+      - main
+  Frontend Doctor Arm:
+    name: Frontend Doctor Arm
+    details:
+      ssh_url_to_repo: git@rwdt1.gitlab.yandexcloud.net:prmo/frontend-doctor-arm.git
+      branches:
+      - main
+  Core Kernel:
+    name: Core Kernel
+    details:
+      ssh_url_to_repo: git@rwdt1.gitlab.yandexcloud.net:prmo/core-kernel.git
+      branches:
+      - main
+  backend-hardware:
+    name: backend-hardware
+    details:
+      ssh_url_to_repo: git@rwdt1.gitlab.yandexcloud.net:prmo/backend-hardware.git
+      branches:
+      - main
+  Backend Central:
+    name: Backend Central
+    details:
+      ssh_url_to_repo: git@rwdt1.gitlab.yandexcloud.net:prmo/backend-central.git
+      branches:
+      - main
+  Timetable:
+    name: Timetable
+    details:
+      ssh_url_to_repo: git@rwdt1.gitlab.yandexcloud.net:general/timetable.git
+      branches:
+      - experiment-laurent
+      - fix/test_user_events
+      - main
+      - new-view
+  gitlab-ci-snippets:
+    name: gitlab-ci-snippets
+    details:
+      ssh_url_to_repo: git@rwdt1.gitlab.yandexcloud.net:rwdt/ci-tools/gitlab-ci-snippets.git
+      branches:
+      - master
+  Cardpas Ui:
+    name: Cardpas Ui
+    details:
+      ssh_url_to_repo: git@rwdt1.gitlab.yandexcloud.net:personafication/cardpas-ui.git
+      branches:
+      - develop
+      - main
+      - v2
+  Personalizer Api service:
+    name: Personalizer Api service
+    details:
+      ssh_url_to_repo: git@rwdt1.gitlab.yandexcloud.net:personafication/pers-api-service.git
+      branches:
+      - develop
+      - main
+  puma-core:
+    name: puma-core
+    details:
+      ssh_url_to_repo: git@rwdt1.gitlab.yandexcloud.net:labeling/puma-core.git
+      branches:
+      - ahu
+      - ahu-t
+      - ahu2
+      - core
+      - doss
+      - main
+  timetable:
+    name: timetable
+    details:
+      ssh_url_to_repo: git@rwdt1.gitlab.yandexcloud.net:support/deploys/timetable.git
+      branches:
+      - main
+      - s.mymrikov-main-patch-10785
+  one-click-demo:
+    name: one-click-demo
+    details:
+      ssh_url_to_repo: git@rwdt1.gitlab.yandexcloud.net:personafication/one-click-demo.git
+      branches:
+      - develop
+      - main
+  XMLImporter:
+    name: XMLImporter
+    details:
+      ssh_url_to_repo: git@rwdt1.gitlab.yandexcloud.net:p.supryatkin/xmlimporter.git
+      branches: []
+  sinesis-sync:
+    name: sinesis-sync
+    details:
+      ssh_url_to_repo: git@rwdt1.gitlab.yandexcloud.net:labeling/sinesis-sync.git
+      branches:
+      - feat/mt-events-with-sync-persons
+      - main
+  hook:
+    name: hook
+    details:
+      ssh_url_to_repo: git@rwdt1.gitlab.yandexcloud.net:personafication/hook.git
+      branches:
+      - main
+  personalizer:
+    name: personalizer
+    details:
+      ssh_url_to_repo: git@rwdt1.gitlab.yandexcloud.net:personafication/personalizer.git
+      branches:
+      - 4-personalizer
+      - '7'
+      - 7-2
+      - 7-3
+      - develop
+      - main
+  Deploy sua and doss:
+    name: Deploy sua and doss
+    details:
+      ssh_url_to_repo: git@rwdt1.gitlab.yandexcloud.net:support/deploys/deploy-sua-and-doss.git
+      branches:
+      - main
+  Inventory:
+    name: Inventory
+    details:
+      ssh_url_to_repo: git@rwdt1.gitlab.yandexcloud.net:labeling/inventory.git
+      branches:
+      - contracts
+      - dev
+      - feature/RZDMP-102-get-info
+      - feature/RZDMP-104-room-tree
+      - feature/RZDMP-109-report
+      - feature/RZDMP-120-move
+      - feature/demo
+      - feature/mock_server
+      - feature/pincode_screen
+      - feature/prototype
+      - feature/qr
+      - fix/free
+      - master
+      - ui
+  doss:
+    name: doss
+    details:
+      ssh_url_to_repo: git@rwdt1.gitlab.yandexcloud.net:labeling/doss.git
+      branches:
+      - main
+  sua:
+    name: sua
+    details:
+      ssh_url_to_repo: git@rwdt1.gitlab.yandexcloud.net:labeling/sua.git
+      branches:
+      - main
+  sauk-reader:
+    name: sauk-reader
+    details:
+      ssh_url_to_repo: git@rwdt1.gitlab.yandexcloud.net:labeling/sauk-reader.git
+      branches:
+      - main
+      - php
+  PUMA2:
+    name: PUMA2
+    details:
+      ssh_url_to_repo: git@rwdt1.gitlab.yandexcloud.net:labeling/puma2.git
+      branches:
+      - doss
+      - feat/sinesis-integration
+      - main
+      - master
+      - newgen
+      - puma-dev
+      - puma2
+      - sua
+  Uhf Uart Demo:
+    name: Uhf Uart Demo
+    details:
+      ssh_url_to_repo: git@rwdt1.gitlab.yandexcloud.net:labeling/uhf-uart-demo.git
+      branches:
+      - main
+  demoPrmo:
+    name: demoPrmo
+    details:
+      ssh_url_to_repo: git@rwdt1.gitlab.yandexcloud.net:general/demoprmo.git
+      branches:
+      - main
+  prmo-files:
+    name: prmo-files
+    details:
+      ssh_url_to_repo: git@rwdt1.gitlab.yandexcloud.net:general/prmo-files.git
+      branches:
+      - main
+  prmo:
+    name: prmo
+    details:
+      ssh_url_to_repo: git@rwdt1.gitlab.yandexcloud.net:general/prmo.git
+      branches:
+      - main
