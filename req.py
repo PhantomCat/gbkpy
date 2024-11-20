@@ -10,9 +10,9 @@ import pprint
 # Теперь эти настройки лежат в '/etc/gbkpy/config.yaml'
 # Вам нужно получить токен доступа в ваш локальный gitlab с правами:
 # read_api, read_user, read_repository, read_registry, read_service_ping
-# private_token = 'XXXglpat-PqK_TahK72T7SfEcNQVuXXX'
+# private_token = ''
 # Ссылка на gitlab
-# gitlab_instance = 'https://rwdt1.gitlab.yandexcloud.net/'
+# gitlab_instance = ''
 
 # Расположение файла конфигурации
 config_file = '/etc/gbkpy/config.yaml'
